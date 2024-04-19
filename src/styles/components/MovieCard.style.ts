@@ -16,45 +16,22 @@ export const Card = styled.div`
   align-items: flex-end;
   padding: 16px;
 
-  /* Media query para smartphones pequenos */
-  @media screen and (max-width: 320px) {
-    background-color: red;
-  }
-
-  /* Media query para smartphones médios */
-  @media screen and (min-width: 321px) and (max-width: 375px) {
-    background-color: blue;
-  }
-
-  /* Media query para smartphones grandes */
-  @media screen and (min-width: 376px) and (max-width: 414px) {
-    background-color: yellow;
-  }
-
   /* Media query para tablets em modo retrato */
   @media screen and (min-width: 768px) and (max-width: 768px) {
-    background-color: coral;
     width: 200px;
     height: 300px;
   }
 
   /* Media query para tablets em modo paisagem */
   @media screen and (min-width: 769px) and (max-width: 1024px) {
-    background-color: salmon;
     width: 200px;
     height: 300px;
   }
 
   /* Media query para desktops pequenos */
   @media screen and (min-width: 1025px) and (max-width: 1366px) {
-    background-color: green;
     width: 240px;
     height: 360px;
-  }
-
-  /* Media query para desktops grandes */
-  @media screen and (min-width: 1367px) {
-    background-color: magenta;
   }
 `;
 
